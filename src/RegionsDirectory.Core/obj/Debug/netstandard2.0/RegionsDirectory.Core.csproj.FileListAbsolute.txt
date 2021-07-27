@@ -1,0 +1,9 @@
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/bin/Debug/netstandard2.0/RegionsDirectory.Core.deps.json
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/bin/Debug/netstandard2.0/RegionsDirectory.Core.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/bin/Debug/netstandard2.0/RegionsDirectory.Core.pdb
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.csprojAssemblyReference.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.AssemblyInfoInputs.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.AssemblyInfo.cs
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.csproj.CoreCompileInputs.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/obj/Debug/netstandard2.0/RegionsDirectory.Core.pdb

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7regNVU5nNppRdJSv7eQptamorn1p4c/S0B3seI0DOgJvMUyw0yKd0e5YAOg+Dx0XR9Dv6EOVeT8GLV2yh//xA==",
+  "dgSpecHash": "5EwS3sc9VkUYn5OGljqd5jN1QpFhOO8YsShDh8oZ0ncPOYTNDPGqSDFJzK2ePZ5zvDcqquyOxpoaoft/9zjK0g==",
   "success": true,
   "projectFilePath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/RegionsDirectory.Persistence.csproj",
   "expectedPackageFiles": [

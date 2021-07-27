@@ -11,6 +11,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+using RegionsDirectory.Core.Interfaces.Services;
+using RegionsDirectory.Core.Interfaces.Repositories;
+using RegionsDirectory.Core.Services;
+using RegionsDirectory.Persistence.Repositories;
+using RegionsDirectory.Mapping;
+
 namespace RegionsDirectory
 {
     public class Startup
@@ -26,6 +32,12 @@ namespace RegionsDirectory
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddScoped<IRegionsService, RegionsService>();
+            services.AddScoped<IRegionsRepository, RegionsRepository>();
+
+            services.AddSwaggerGen();
+            services.AddAutoMapper(typeof(ModelToResourceProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +47,17 @@ namespace RegionsDirectory
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseHttpsRedirection();
 
