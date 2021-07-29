@@ -1,0 +1,14 @@
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Persistence.deps.json
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Persistence.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Persistence.pdb
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Common.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Core.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Core.pdb
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.1/RegionsDirectory.Common.pdb
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.csprojAssemblyReference.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.AssemblyInfoInputs.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.AssemblyInfo.cs
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.csproj.CoreCompileInputs.cache
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.csproj.CopyComplete
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.1/RegionsDirectory.Persistence.pdb

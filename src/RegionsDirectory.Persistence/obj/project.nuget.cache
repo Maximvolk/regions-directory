@@ -1,11 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "5EwS3sc9VkUYn5OGljqd5jN1QpFhOO8YsShDh8oZ0ncPOYTNDPGqSDFJzK2ePZ5zvDcqquyOxpoaoft/9zjK0g==",
+  "dgSpecHash": "M4r0YUH/9uQHhQd+QIfaI83Smd+MCiQZqC88UFDVV60cXHxo/jwl9dD1Qt+pts6dcJicgKVt/1CJ52oljmZY9g==",
   "success": true,
   "projectFilePath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/RegionsDirectory.Persistence.csproj",
   "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/max/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/oracle.manageddataaccess.core/3.21.1/oracle.manageddataaccess.core.3.21.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.diagnostics.performancecounter/4.7.0/system.diagnostics.performancecounter.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.directoryservices/4.7.0/system.directoryservices.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.directoryservices.protocols/4.7.0/system.directoryservices.protocols.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.io.filesystem.accesscontrol/4.7.0/system.io.filesystem.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.text.encodings.web/4.7.0/system.text.encodings.web.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,8 +4,13 @@
     <ProjectReference Include="..\RegionsDirectory.Core\RegionsDirectory.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.1" />
+  </ItemGroup>
+
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
 </Project>

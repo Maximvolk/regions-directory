@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XRCSYpQfVsmDZFIdZ5K5RWP+17bko0kj+Ns1VHOZU7FEsnPKhVwk7MMUT2kYmcd3JZfvT4r8pB/p+B3wNE49RQ==",
+  "dgSpecHash": "DhQi5i6gr1y3hNRpGSCXewbGf+YkSWaQ8RX89aBpdE4Nl/C0yvkeIuKM97JTea6A6jlu8ZLVQVAmCqKxNCU7CQ==",
   "success": true,
   "projectFilePath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj",
-  "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

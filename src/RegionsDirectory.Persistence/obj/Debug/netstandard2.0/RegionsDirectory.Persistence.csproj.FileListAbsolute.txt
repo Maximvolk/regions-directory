@@ -10,3 +10,5 @@
 /Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.0/RegionsDirectory.Persistence.csproj.CopyComplete
 /Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.0/RegionsDirectory.Persistence.dll
 /Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/obj/Debug/netstandard2.0/RegionsDirectory.Persistence.pdb
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.0/RegionsDirectory.Common.dll
+/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Persistence/bin/Debug/netstandard2.0/RegionsDirectory.Common.pdb

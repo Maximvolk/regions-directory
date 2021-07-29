@@ -4,6 +4,59 @@
     "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory/RegionsDirectory.csproj": {}
   },
   "projects": {
+    "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj",
+        "projectName": "RegionsDirectory.Common",
+        "projectPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/RegionsDirectory.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -20,14 +73,18 @@
           "/Users/max/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj": {
+                "projectPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,13 +94,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -56,6 +111,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
@@ -76,13 +136,13 @@
           "/Users/max/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {
               "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/RegionsDirectory.Core.csproj": {
                 "projectPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/RegionsDirectory.Core.csproj"
@@ -97,13 +157,15 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Dapper": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[2.0.90, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.1, )"
             }
           },
           "imports": [
@@ -116,6 +178,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
@@ -144,6 +211,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj": {
+                "projectPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Common/RegionsDirectory.Common.csproj"
+              },
               "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/RegionsDirectory.Core.csproj": {
                 "projectPath": "/Users/max/Prog/dotnet/regions-directory/src/RegionsDirectory.Core/RegionsDirectory.Core.csproj"
               },

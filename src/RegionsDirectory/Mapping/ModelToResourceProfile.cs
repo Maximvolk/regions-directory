@@ -1,5 +1,5 @@
 using RegionsDirectory.Core.Models;
-using RegionsDirectory.Resources;
+using RegionsDirectory.Common.Resources;
 using AutoMapper;
 
 namespace RegionsDirectory.Mapping

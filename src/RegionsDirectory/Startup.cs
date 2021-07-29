@@ -16,6 +16,7 @@ using RegionsDirectory.Core.Interfaces.Repositories;
 using RegionsDirectory.Core.Services;
 using RegionsDirectory.Persistence.Repositories;
 using RegionsDirectory.Mapping;
+using RegionsDirectory.Persistence.Infrastructure;
 
 namespace RegionsDirectory
 {
@@ -33,7 +34,11 @@ namespace RegionsDirectory
         {
             services.AddControllers();
 
+            services.Configure<DbOptions>(
+                options => Configuration.GetSection("Db").Bind(options));
+
             services.AddScoped<IRegionsService, RegionsService>();
+            services.AddScoped<IDbWrapper, DbWrapper>();
             services.AddScoped<IRegionsRepository, RegionsRepository>();
 
             services.AddSwaggerGen();

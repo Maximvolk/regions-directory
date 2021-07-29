@@ -1,5 +1,7 @@
 using System;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Extensions.Logging;
 
 using RegionsDirectory.Core.Interfaces.Services;
@@ -22,7 +24,7 @@ namespace RegionsDirectory.Core.Services
             _logger = logger;
         }
 
-        public async Task<Region[]> GetRegionsAsync(
+        public async Task<IEnumerable<Region>> GetRegionsAsync(
             string regionName, string regionShortName)
         {
             try
@@ -44,6 +46,11 @@ namespace RegionsDirectory.Core.Services
         {
             try
             {
+                var existingRegion = await _regionsRepository.GetAsync(region.Name, region.ShortName);
+
+                if (existingRegion.Count() > 0)
+                    return new RegionResponse("Such region already exists", CustomerCodes.RegionAlreadyExists);
+
                 await _regionsRepository.AddAsync(region);
                 // Think on extracting id of created region
                 return new RegionResponse(region);

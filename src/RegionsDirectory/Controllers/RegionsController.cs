@@ -1,8 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using RegionsDirectory.Core.Interfaces.Services;
+using RegionsDirectory.Core.Responses;
+using RegionsDirectory.Core.Models;
 using RegionsDirectory.Common.Resources;
+using RegionsDirectory.Common;
 using AutoMapper;
 
 namespace RegionsDirectory.Controllers
@@ -24,28 +28,44 @@ namespace RegionsDirectory.Controllers
         }
 
         [HttpGet]
-        public async Task<RegionResource[]> GetRegionsAsync([FromQuery]string regionName)
+        public async Task<IEnumerable<RegionResource>> GetRegionsAsync(
+            [FromQuery]string regionName, [FromQuery]string regionShortName)
         {
-            return new RegionResource[1]
-                {new RegionResource {Id = 1, Name = "sample", ShortName = "s1"}};
+            _logger.LogInformation($"Extracting regions (name = {regionName}, shortName = {regionShortName}) ...");
+            var regions = await _regionsService.GetRegionsAsync(regionName, regionShortName);
+
+            return _mapper.Map<IEnumerable<Region>, IEnumerable<RegionResource>>(regions);
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddRegionAsync([FromBody]RegionResource region)
+        public async Task<RegionResponse> AddRegionAsync([FromBody]AddRegionResource regionResource)
         {
-            return Ok();
+            _logger.LogInformation($"Adding region (Name = {regionResource.Name}, ShortName = {regionResource.ShortName}) ...");
+
+            var region = _mapper.Map<AddRegionResource, Region>(regionResource);
+            var response = await _regionsService.AddRegionAsync(region);
+
+            return response;
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateRegionAsync(int id, [FromBody]RegionResource region)
+        public async Task<RegionResponse> UpdateRegionAsync(int id, [FromBody]AddRegionResource regionResource)
         {
-            return Ok();
+            _logger.LogInformation($"Updating region #{id} (Name = {regionResource.Name}, ShortName = {regionResource.ShortName}) ...");
+
+            var region = _mapper.Map<AddRegionResource, Region>(regionResource);
+            var response = await _regionsService.UpdateRegionAsync(id, region);
+
+            return response;
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteRegionAsync(int id)
+        public async Task<RegionResponse> DeleteRegionAsync(int id)
         {
-            return Ok();
+            _logger.LogInformation($"Deleting region #{id} ...");
+            var response = await _regionsService.DeleteRegionAsync(id);
+
+            return response;
         }
     }
 }

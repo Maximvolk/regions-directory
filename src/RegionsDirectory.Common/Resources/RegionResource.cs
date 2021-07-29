@@ -1,4 +1,4 @@
-namespace RegionsDirectory.Resources
+namespace RegionsDirectory.Common.Resources
 {
     public class RegionResource
     {
