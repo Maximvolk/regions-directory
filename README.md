@@ -1,6 +1,6 @@
 # Regions Catalog Service
 
-This service provides used with all basic CRUD operations on regions.
+This service provides user with all basic CRUD operations on regions.
 
 ### Technologies
 Used technologies are: ASP.NET CORE 3.1, Dapper (lightweight ORM), Oracle (RDBMS).
